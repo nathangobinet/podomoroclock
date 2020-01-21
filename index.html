@@ -9,10 +9,55 @@
         <link rel="stylesheet" type="text/css" href="dist/main.css">
     -->
     
-    <title>Title</title>
+    <title>Pomodoro clock</title>
 </head>
 <body>
     <div id="root"></div>
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-12">
+                <div class="text-center">
+                    <h1>Pomodoro clock</h1>
+                </div>
+                <div class="text-center mb-5">
+                    <div class="time-container">
+                        <span id="time-left">25:00</span>
+                        <hr/>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <button type="button"><i class="fas fa-pause"></i></button>
+                            <span id="timer-label">Session</span>
+                            <button type="button"><i class="fas fa-history"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center times-container mb-5">
+                    <div class="col-12 mb-4"><h5>Times</h5></div>
+                    <div class="col-6 border-right">
+                        <span>Session</span>
+                        <div class="mt-2">
+                            <div><button type="button"><i class="fas fa-caret-up"></i></button></div>
+                            <div>25:00</div>
+                            <div><button type="button"><i class="fas fa-caret-down"></i></button></div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <span>Break</span>
+                        <div class="mt-2">
+                            <div><button type="button"><i class="fas fa-caret-up"></i></button></div>
+                            <div>1:00</div>
+                            <div><button type="button"><i class="fas fa-caret-down"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="col-12 text-center pt-5">
+                    Made with
+                    <span aria-label="love" role="img"> ♥ </span>
+                    <span>by </span>
+                    <a href="https://github.com/nathangobinet/markdownpreviewer" target="_blank" rel="noopener noreferrer">Nathan Gobinet</a>
+                </footer>
+            </div>
+        </div>
+    </div>
     <script src="dist/main.js"></script>
 </body>
 </html>

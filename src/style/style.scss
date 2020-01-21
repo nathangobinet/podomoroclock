@@ -1,0 +1,69 @@
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+$fa-font-path : "~@fortawesome/fontawesome-free/webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+
+html, body {
+  height: 100%;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+body {
+  background: #DA4453;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: white;
+  padding: 15px;
+}
+
+.time-container {
+  margin: auto;
+  width: 200px;
+
+  hr {
+    margin-top: 0px;
+    border-top: 1px solid rgba(#fff, 0.7);
+  }
+
+  #time-left {
+    font-size: 75px;
+  }
+
+  #timer-label {
+    font-size: 20px;
+  }
+}
+
+.times-container {
+  margin: auto;
+  max-width: 400px;
+}
+
+button, a {
+ color: inherit;
+ background: none;
+ border: none;
+ outline: none!important;
+ transition: color .2s;
+ &:hover {
+   color: rgba($color: #fff, $alpha: .6);
+ }
+ &:active {
+  color: rgba($color: #fff, $alpha: .3);
+ }
+}
+
+footer {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+
