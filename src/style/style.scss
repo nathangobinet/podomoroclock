@@ -9,7 +9,6 @@ html, body {
   height: 100%;
   color: white;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -19,14 +18,15 @@ body {
   background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-h1 {
-  color: white;
+h1,h5 {
   padding: 15px;
+  letter-spacing: 5px;
 }
 
 .time-container {
   margin: auto;
   width: 200px;
+  letter-spacing: 5px;
 
   hr {
     margin-top: 0px;
@@ -45,9 +45,14 @@ h1 {
 .times-container {
   margin: auto;
   max-width: 400px;
+  #session-label, #break-label {
+    letter-spacing: 5px;
+  }
 }
 
 button, a {
+ padding: 5px;
+ line-height: 0;
  color: inherit;
  background: none;
  border: none;
