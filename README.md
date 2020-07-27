@@ -5,7 +5,7 @@
 <h4 align="center">A simple Podomoro clock build on React and Redux- <a href="https://nathangobinet.github.io/podomoroclock/">Try it !</h4>
 <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nathangobinet/podomoroclock/master/ressources/screen.PNG" alt="Podomoro clock" width="1000"></a>
+  <img src="https://raw.githubusercontent.com/nathangobinet/podomoroclock/master/ressources/screen.PNG" alt="Podomoro clock" width="500"></a>
 </p>
 
 *This project was carried out as part of the FreeCodeCamp certification.*
