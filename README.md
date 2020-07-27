@@ -1,9 +1,7 @@
 <h1 align="center">
   Podomoro Clock
 </h1>
-<br>
 <h4 align="center">A simple Podomoro clock build on React and Redux- <a href="https://nathangobinet.github.io/podomoroclock/">Try it !</h4>
-<br>
 <p align="center">
   <img src="https://raw.githubusercontent.com/nathangobinet/podomoroclock/master/ressources/screen.PNG" alt="Podomoro clock" width="500"></a>
 </p>
